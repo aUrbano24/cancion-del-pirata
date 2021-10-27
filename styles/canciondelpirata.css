@@ -1,0 +1,23 @@
+@font-face {
+    font-family: pirate;
+    src: url(./fonts/Qahiri-Regular.ttf);
+}
+body {
+    background-color: black;
+    font-family: pirate;
+}
+
+#container {
+    background-image: url("../images/11-110609_m.jpg");
+    background-size: cover; /*Estira horiziontal y vertical para qe solo quepa una vez*/
+    background-position: center;
+    width: 80%;
+    padding: 30px 0;
+    font-size:2em;
+    margin: auto;
+}
+#poema {
+    background-color: #d3853c83;
+    width: 350px; /*tengo en cuenta que la suma de pixles debe respetar el ancho*/
+    padding-left: 10px;
+}

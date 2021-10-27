@@ -1,0 +1,26 @@
+/*HOJA DE ESTILO DEL PIRATA*/
+@font-face {
+    font-family: pirate;
+    src: url(../fonts/Qahiri-Regular.ttf);
+}
+body {
+    background-image: url(../images/background.jpg);
+    /*background-size: 500px;*/
+    margin: 0;
+    padding: 0;
+}
+#container {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 1.5em;
+    font-family: pirate;
+
+
+    /*Se sueler regular el ancho pero no el alto*/
+}
