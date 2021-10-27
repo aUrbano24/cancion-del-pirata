@@ -15,6 +15,7 @@ body {
     padding: 30px 0;
     font-size:2em;
     margin: auto;
+    height: auto;
 }
 #poema {
     background-color: #d3853c83;
